@@ -1,41 +1,47 @@
-<!-- styles for my resume -->
+/* styles for my resume */
 
-<!-- default body font --> 
+/* default body font */
 body {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 1em;
   color: #444;
 }
-
-<!-- banner name at top -->
+/* banner name at top */
 h1 {
   font-size: 3em;
   color: #33485e;
   text-transform: uppercase;
   text-align: center;
 }
+/* my title */
+strong {
+  font-size: 1.5em;
+  color: #33485e;
+  text-transform: uppercase;
+}
 
-<!--  -->
+/* section titles */
 {
   
 }
 
-<!--  -->
+/* job title */
 {
   
 }
 
-<!--  -->
+/* job organization */
 {
   
 }
 
-<!--  -->
+/* job dates */
 {
   
 }
 
-<!--  -->
+/* contact info */
 {
   
 }
+
