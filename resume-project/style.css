@@ -2,7 +2,7 @@
 
 /* default body font */
 body {
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 1em;
   color: #444;
 }
@@ -29,13 +29,13 @@ h2 {
   font-weight: 400;
 }
 
-/* job title */
+/* job titles */
 h3 {
   font-size: 1.5em;
   font-weight: 600;
 }
 
-/* job organization */
+/* job organizations */
 h4 {
   font-size: 1.5em;
   font-weight: 400;
@@ -48,7 +48,7 @@ h5 {
   font-weight: 700;
 }
 
-/* contact info */
+/* contact info, skills, education */
 ul {
     font-size: 1em;
 }
