@@ -31,17 +31,21 @@ h2 {
 
 /* job title */
 h3 {
-  
+  font-size: 1.5em;
+  font-weight: 600;
 }
 
 /* job organization */
 h4 {
-  
+  font-size: 1.5em;
+  font-weight: 400;
+  font-style: italic;
 }
 
 /* job dates */
 h5 {
-  
+  font-size: 1em;
+  font-weight: 700;
 }
 
 /* contact info */
