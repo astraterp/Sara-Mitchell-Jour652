@@ -21,27 +21,31 @@ strong {
 }
 
 /* section titles */
-{
-  
+h2 {
+  font-size: 1.5em;
+  color: white;
+  text-transform: uppercase;
+  background-color: #33485e;
+  font-weight: 400;
 }
 
 /* job title */
-{
+h3 {
   
 }
 
 /* job organization */
-{
+h4 {
   
 }
 
 /* job dates */
-{
+h5 {
   
 }
 
 /* contact info */
-{
-  
+ul {
+    font-size: 1em;
 }
 
