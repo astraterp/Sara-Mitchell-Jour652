@@ -1,0 +1,30 @@
+#container {
+  width: 100%;
+  max-width: 1024px
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: left;
+}
+
+body {
+  background-color: #25341c
+}
+
+#header {
+  text-align: center;
+}
+
+#page-title {
+  font-family: "Alegreya SC", serif;
+  font-size: 3em;
+  color: #8BE039;
+}
+
+h3 {
+  color: #8BE039;
+  background-color: black;
+  border: 1px dotted #8BE039;
+  margin: 30px;
+  padding: 10px;
+}
