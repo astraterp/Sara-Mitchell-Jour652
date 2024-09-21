@@ -16,11 +16,21 @@ body {
   text-align: center;
 }
 /* fancy page title */
-#page-title {
+.page-title {
   font-family: "Alegreya SC", serif;
   font-size: 3em;
   color: #8BE039;
+  font-weight: 500;
 }
+
+#page-title2 {
+  opacity: 0.75;
+}
+
+#page-title3 {
+  opacity: 0.5;
+}
+
 /* page dividers */
 h3 {
   color: #8BE039;
