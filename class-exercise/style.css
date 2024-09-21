@@ -1,3 +1,4 @@
+/* body content */
 #container {
   width: 100%;
   max-width: 1024px
@@ -6,25 +7,29 @@
   color: white;
   text-align: left;
 }
-
+/* page background */
 body {
   background-color: #25341c
 }
-
+/* header image/text */
 #header {
   text-align: center;
 }
-
+/* fancy page title */
 #page-title {
   font-family: "Alegreya SC", serif;
   font-size: 3em;
   color: #8BE039;
 }
-
+/* page dividers */
 h3 {
   color: #8BE039;
   background-color: black;
   border: 1px dotted #8BE039;
-  margin: 30px;
-  padding: 10px;
+  margin: 1em;
+  padding: 0.5em;
+}
+/* italic movie titles */
+.movie-title {
+  font-style: italic;
 }
