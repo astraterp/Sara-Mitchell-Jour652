@@ -34,10 +34,11 @@ body {
 /* page dividers */
 h3 {
   color: #8BE039;
-  background-color: black;
-  border: 1px dotted #8BE039;
+  background-color: rgba(0,0,0,0.4);
+  border: 1px dotted white;
   margin: 1em;
   padding: 0.5em;
+  border-radius: 10px;
 }
 /* italic movie titles */
 .movie-title {
