@@ -28,10 +28,13 @@ body {
 }
 
 /* my title */
-strong {
+#title {
   font-size: 1.5em;
   color: #33485e;
   text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* section headers */
@@ -83,8 +86,32 @@ ul.menu {
   padding: 0px;
   text-align: center;
 }
+
 /* list items in top menu */
 ul.menu li {
   display: inline;
   padding: 0px 20px;
+}
+
+/* education list */
+ul#degrees {
+  margin-top: 5px;
+}
+
+/* skills list */
+ul#do {
+  margin-top: 5px;
+}
+
+/* headshot image */
+#headshot {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #33485e;
+}
+/* headshot container */
+#headshot-container {
+  text-align: center;
 }
