@@ -48,22 +48,23 @@ strong {
 }
 
 /* job titles */
-h3 {
+.jobtitle {
   font-size: 1.5em;
   font-weight: 600;
 }
 
 /* job organizations */
-h4 {
-  font-size: 1.5em;
+.organization {
+  font-size: 1.2em;
   font-weight: 400;
   font-style: italic;
 }
 
 /* job dates */
-h5 {
+.date {
   font-size: 1em;
   font-weight: 700;
+  margin-top: 2px;
 }
 
 /* contact info, skills, education */
