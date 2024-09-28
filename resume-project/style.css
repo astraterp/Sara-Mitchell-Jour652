@@ -6,6 +6,15 @@ body {
   font-size: 1em;
   color: #444;
 }
+
+/* container style */
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  }
+
 /* banner name at top */
 h1 {
   font-size: 3em;
@@ -13,6 +22,7 @@ h1 {
   text-transform: uppercase;
   text-align: center;
 }
+
 /* my title */
 strong {
   font-size: 1.5em;
