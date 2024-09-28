@@ -67,8 +67,24 @@ strong {
   margin-top: 2px;
 }
 
-/* contact info, skills, education */
+/* job descriptions */
+.description {
+  margin: 10px 0px 10px;
+}
+
+/* contact info, skills, education lists */
 ul {
     font-size: 1em;
 }
 
+/* top menu */
+ul.menu {
+  margin: 10px 0px 20px;
+  padding: 0px;
+  text-align: center;
+}
+/* list items in top menu */
+ul.menu li {
+  display: inline;
+  padding: 0px 20px;
+}
