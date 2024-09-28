@@ -111,7 +111,24 @@ ul#do {
   border-radius: 50%;
   border: 5px solid #33485e;
 }
+
 /* headshot container */
 #headshot-container {
   text-align: center;
+}
+
+/* links */
+a:link {
+  font-weight: 600;
+  color: #0bc5f4;
+}
+
+/* hovering over links */
+a:hover {
+  color: #33485e;
+}
+
+/* visited links */
+a:visited {
+  color: #6e38c7;
 }
