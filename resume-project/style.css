@@ -2,52 +2,52 @@
 
 /* default body font */
 body {
+  color: #444;
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 1em;
-  color: #444;
 }
 
 /* container style */
 #container {
-  width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
+  max-width: 1200px;
   padding-bottom: 50px;
+  width: 100%;
 }
 
 /* banner name at top */
 #name {
-  font-size: 3em;
-  color: #33485e;
-  text-transform: uppercase;
-  text-align: center;
   border-bottom: 1px solid #33485e;
-  width: 60%;
-  min-width: 300px;
+  color: #33485e;
+  font-size: 3em;
   margin: 0 auto;
+  min-width: 300px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 60%;
 }
 
 /* my title */
 #title {
-  font-size: 1.5em;
   color: #33485e;
-  text-transform: uppercase;
+  font-size: 1.5em;
   font-weight: 600;
-  text-align: center;
   margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* section headers */
 .sectionheader {
-  font-size: 1.5em;
-  color: white;
-  text-transform: uppercase;
   background-color: #33485e;
+  color: white;
+  font-size: 1.5em;
   font-weight: 400;
   margin: 20px 0px 10px;
-  padding: 5px 0px 5px 10px;
-  width: 100%;
   min-width: 300px;
+  padding: 5px 0px 5px 10px;
+  text-transform: uppercase;
+  width: 100%;
 }
 
 /* job titles */
@@ -59,8 +59,8 @@ body {
 /* job organizations */
 .organization {
   font-size: 1.2em;
-  font-weight: 400;
   font-style: italic;
+  font-weight: 400;
 }
 
 /* job dates */
@@ -77,7 +77,7 @@ body {
 
 /* contact info, skills, education lists */
 ul {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 /* top menu */
@@ -105,11 +105,11 @@ ul#do {
 
 /* headshot image */
 #headshot {
-  width: 150px;
+  border: 5px solid #33485e;
+  border-radius: 50%;
   height: 150px;
   object-fit: cover;
-  border-radius: 50%;
-  border: 5px solid #33485e;
+  width: 150px;
 }
 
 /* headshot container */
@@ -119,8 +119,8 @@ ul#do {
 
 /* unvisited links */
 a:link {
-  font-weight: 600;
   color: #0bc5f4;
+  font-weight: 600;
 }
 
 /* hovering over links */
