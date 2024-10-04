@@ -13,7 +13,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 50px;
-  }
+}
 
 /* banner name at top */
 #name {
@@ -117,7 +117,7 @@ ul#do {
   text-align: center;
 }
 
-/* links */
+/* unvisited links */
 a:link {
   font-weight: 600;
   color: #0bc5f4;
