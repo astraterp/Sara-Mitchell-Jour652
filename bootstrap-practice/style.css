@@ -1,33 +1,51 @@
 /* styles for body container */
 .container {
-  max-width: 900px;
   margin: 0 auto;
+  max-width: 900px;
   padding: 50px 0;
 }
 
 /* styles for headline */
 h1 {
   color: #3e1e1e;
+  font-family: "Merriweather", serif;
+  font-size: 2.5em;
 }
 
 /* styles for byline */
-.byline {
+#byline {
   color: #595421;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+}
+  
+/* styles for body text */
+#body-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
 }
 
 /* styles for pull quote */
 blockquote {
-  border-left: solid 6px #595421;
+  border-left: solid 10px #949983;
+  font-family: "Merriweather", serif;
+  font-size: 1.6em;
+  margin: 20px 30px;
+  padding: 0 15px;
 }
 
 /* styles for more reads section */
 #more-reads {
   background-color: #ebe9e0;
+  border-top: dashed 2px #949983;
+  padding: 15px;
 }
 
 /* styles for more reads title */
 h3 {
   color: #595421;
+  font-family: "Merriweather", serif;
+  font-size: 1.4em;
 }
 
 /* styles for footer container */
@@ -38,5 +56,24 @@ h3 {
 /* styles for footer text */
 .footer-text {
   color: #ebe9e0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  margin: 30px;
   text-align: center;
+}
+
+/* unvisited links */
+a:link {
+  color: #212659;
+  font-weight: 500;
+}
+
+/* hovering over links */
+a:hover {
+  color: #595421;
+}
+
+/* visited links */
+a:visited {
+  color: #542159;
 }
