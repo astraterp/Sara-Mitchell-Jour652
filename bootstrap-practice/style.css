@@ -1,6 +1,42 @@
-/* styles for container */
+/* styles for body container */
 .container {
   max-width: 900px;
   margin: 0 auto;
   padding: 50px 0;
+}
+
+/* styles for headline */
+h1 {
+  color: #3e1e1e;
+}
+
+/* styles for byline */
+.byline {
+  color: #595421;
+}
+
+/* styles for pull quote */
+blockquote {
+  border-left: solid 6px #595421;
+}
+
+/* styles for more reads section */
+#more-reads {
+  background-color: #ebe9e0;
+}
+
+/* styles for more reads title */
+h3 {
+  color: #595421;
+}
+
+/* styles for footer container */
+.container-fluid {
+  background-color: #595421;
+}
+
+/* styles for footer text */
+.footer-text {
+  color: #ebe9e0;
+  text-align: center;
 }
