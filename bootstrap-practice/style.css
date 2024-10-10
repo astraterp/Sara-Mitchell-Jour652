@@ -33,6 +33,7 @@ h1 {
 .body-text {
   font-family: "Poppins", sans-serif;
   font-size: 1em;
+  padding-bottom: 5px;
 }
 
 /* styles for pull quote */
@@ -51,11 +52,16 @@ blockquote {
   padding: 10px 25px;
 }
 
+/* styles for horizontal divider */
+#divider {
+  border-top: 2px dashed #949983;
+  opacity: 1;
+}
+
 /* styles for more reads section */
 #more-reads {
   background-color: #ebe9e0;
-  border-top: dashed 2px #949983;
-  margin-top: 35px;
+  margin-top: 30px;
   padding: 20px;
 }
 
