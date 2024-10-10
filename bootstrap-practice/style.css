@@ -13,7 +13,7 @@ img {
 /* styles for image captions */
 .captions {
   color: #949983;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 0.75em;
   font-style: italic;
 }
@@ -21,7 +21,7 @@ img {
 /* styles for headline */
 h1 {
   color: #602F2F;
-  font-family: "Merriweather", serif;
+  font-family: "Merriweather", Times, serif;
   font-size: 2.5em;
   padding-top: 10px;
 }
@@ -29,14 +29,14 @@ h1 {
 /* styles for byline */
 #byline {
   color: #595421;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 1.2em;
   padding-bottom: 10px;
 }
   
 /* styles for body text */
 .body-text {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 1em;
   padding-bottom: 5px;
 }
@@ -46,7 +46,7 @@ blockquote {
   border-bottom: dashed 2px #949983;
   border-top: dashed 2px #949983;
   color: #602F2F;
-  font-family: "Merriweather", serif;
+  font-family: "Merriweather", Times, serif;
   font-size: 1.6em;
   font-style: italic;
   margin: 30px 95px;
@@ -75,7 +75,7 @@ blockquote {
 /* styles for more reads title */
 h3 {
   color: #595421;
-  font-family: "Merriweather", serif;
+  font-family: "Merriweather", Times, serif;
   font-size: 1.4em;
 }
 
@@ -87,7 +87,7 @@ h3 {
 /* styles for footer text; height will expand with text */
 .footer-text {
   color: #ebe9e0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 1em;
   margin: 30px;
   text-align: center;
