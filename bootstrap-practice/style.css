@@ -82,7 +82,7 @@ h3 {
   background-color: #595421;
 }
 
-/* styles for footer text */
+/* styles for footer text; height will expand with text */
 .footer-text {
   color: #ebe9e0;
   font-family: "Poppins", sans-serif;
