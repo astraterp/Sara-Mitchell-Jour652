@@ -5,6 +5,11 @@
   padding: 50px 0;
 }
 
+/* styles for images */
+img {
+  width: 100%;
+}
+
 /* styles for image captions */
 .captions {
   color: #949983;
