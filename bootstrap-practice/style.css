@@ -60,13 +60,14 @@ blockquote {
 /* styles for horizontal divider */
 #divider {
   border-top: 2px dashed #949983;
+  margin-top: 30px;
   opacity: 1;
 }
 
 /* styles for more reads section */
 #more-reads {
   background-color: #ebe9e0;
-  margin-top: 30px;
+  margin-top: 40px;
   padding: 20px;
 }
 
