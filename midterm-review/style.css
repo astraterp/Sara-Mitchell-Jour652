@@ -30,13 +30,6 @@ p {
   font-size: 13px;
 }
 
-/* styles for horizontal divider */
-hr {
-  border-top: 8px solid #5885AF;
-  margin-top: 30px;
-  opacity: 1;
-}
-
 /* styles for all images */
 img {
   width: 100%;
@@ -46,9 +39,9 @@ img {
 .caption {
   color: grey;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-style: italic;
-  margin: 5px;
+  margin-top: 3px;
 }
 
 /* styles for inline images */
@@ -78,8 +71,9 @@ blockquote {
 /* styles for read more section */
 #read-more {
   background-color: #C3E0E5;
-  padding: 10px 20px;
-  margin-top: 30px;
+  border-top: 8px solid #5885AF;
+  padding: 5px 20px 10px;
+  margin: 30px 0;
 }
 
 /* styles for read more header */
