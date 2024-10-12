@@ -62,17 +62,22 @@ blockquote {
   border-left: 8px solid #5885AF;
   color: #274472;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   font-style: italic;
   margin: 25px 40px 25px 60px;
   padding: 15px;
+}
+
+/* styles for pull quote credit */
+.quote-credit {
+  text-align: right;
 }
 
 /* styles for read more section */
 #read-more {
   background-color: #C3E0E5;
   padding: 10px 20px;
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 /* styles for read more header */
