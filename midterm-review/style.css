@@ -3,3 +3,34 @@
   margin: 0 auto;
   width: 900px; 
 } 
+
+/* styles for masthead */
+#masthead {
+  width: 100%;
+}
+
+/* styles for byline */
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+/* styles for byline */
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* styles for body text */
+p {
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+/* styles for horizontal divider */
+hr {
+  border-top: 3px solid #5885AF;
+  margin-top: 30px;
+  opacity: 1;
+}
