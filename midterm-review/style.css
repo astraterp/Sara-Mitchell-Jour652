@@ -32,7 +32,7 @@ p {
 
 /* styles for horizontal divider */
 hr {
-  border-top: 3px solid #5885AF;
+  border-top: 8px solid #5885AF;
   margin-top: 30px;
   opacity: 1;
 }
@@ -68,16 +68,23 @@ blockquote {
   padding: 15px;
 }
 
+/* styles for read more section */
+#read-more {
+  background-color: #C3E0E5;
+  padding: 10px 20px;
+  margin-top: 15px;
+}
+
 /* styles for read more header */
 h3 {
   color: #274472;  
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
 }
 
-/* styles for links section */
+/* styles for read more links */
 ul {
-  font-family: Georgia, Times, serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
 
