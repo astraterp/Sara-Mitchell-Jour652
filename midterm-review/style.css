@@ -9,22 +9,24 @@
   width: 100%;
 }
 
-/* styles for byline */
+/* styles for headline */
 h1 {
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 30px;
+  margin-top: 30px;
 }
 
 /* styles for byline */
 #byline {
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: italic;
+  margin-bottom: 30px;
 }
 
 /* styles for body text */
 p {
-  font-family: Georgia, serif;
+  font-family: Georgia, Times, serif;
   font-size: 13px;
 }
 
@@ -34,3 +36,48 @@ hr {
   margin-top: 30px;
   opacity: 1;
 }
+
+/* styles for all images */
+img {
+  width: 100%;
+}
+
+/* styles for image captions */
+.caption {
+  color: grey;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-style: italic;
+  margin: 5px;
+}
+
+/* styles for inline images */
+.image-container {
+  padding: 5px 20px;
+  margin-top: 20px;
+}
+
+/* styles for pull quote */
+blockquote {
+  border-left: 8px solid #5885AF;
+  color: #274472;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  margin: 25px 40px 25px 60px;
+  padding: 15px;
+}
+
+/* styles for read more header */
+h3 {
+  color: #274472;  
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+/* styles for links section */
+ul {
+  font-family: Georgia, Times, serif;
+  font-size: 14px;
+}
+
