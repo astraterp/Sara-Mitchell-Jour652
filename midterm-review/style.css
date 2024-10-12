@@ -62,14 +62,16 @@ blockquote {
   border-left: 8px solid #5885AF;
   color: #274472;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-style: italic;
-  margin: 25px 40px 25px 60px;
+  margin: 25px 100px;
   padding: 15px;
 }
 
 /* styles for pull quote credit */
 .quote-credit {
+  color: #5885AF;
+  font-style: normal;
   text-align: right;
 }
 
