@@ -35,3 +35,23 @@ p {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
 }
+
+/* styles for related items section */
+#related-items {
+  background-color: #FFF3D9;
+  margin: 20px 0;
+  padding: 10px 30px;
+}
+
+/* styles for related items header */
+h3 {
+  color: #B8390E;
+  font-family: Garamond, Georgia, serif;
+  font-size: 16px;
+}
+
+/* styles for related items list */
+ul {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
