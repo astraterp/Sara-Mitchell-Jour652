@@ -33,7 +33,7 @@ h1 {
   color: #3B0918;
   font-family: Garamond, Georgia, serif;
   font-size: 34px;
-  margin-top: 30px;
+  margin: 30px 0 10px;
 }
 
 /* styles for byline */
@@ -58,9 +58,36 @@ p {
   font-size: 12px;
 }
 
+/* styles for blockquote section */
+blockquote {
+  padding: 2px 80px;
+}
+
+/* styles for quote text */
+#quote {
+  border-left: dotted 3px #DC4731;
+  border-top: dotted 3px #DC4731;
+  color: #3B0918;
+  font-family: Garamond, Georgia, serif;
+  font-size: 20px;
+  font-style: italic;
+  padding: 20px 0 5px 20px;
+}
+
+/* styles for quote credit */
+#credit {
+  border-bottom: dotted 3px #DC4731;
+  border-right: dotted 3px #DC4731;
+  color: #B8390E;
+  font-family: Garamond, Georgia, serif;
+  font-size: 20px;
+  padding: 5px 20px 20px 0;
+  text-align: right;
+}
+
 /* styles for related items section */
 #related-items {
-  border-top: dotted 4px #DC4731;
+  border-top: dotted 3px #DC4731;
   background-color: #FFF3D9;
   margin: 30px 0;
   padding: 5px 30px 10px;
@@ -70,37 +97,27 @@ p {
 h3 {
   color: #3B0918;
   font-family: Garamond, Georgia, serif;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /* styles for related items list */
 ul {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
-/* styles for blockquote section */
-blockquote {
-  padding: 2px 80px;
-}
-
-/* styles for quote text */
-#quote {
-  border-left: dotted 4px #DC4731;
-  border-top: dotted 4px #DC4731;
-  color: #3B0918;
-  font-family: Garamond, Georgia, serif;
-  font-size: 20px;
-  padding: 20px 0 0 20px;
-}
-
-/* styles for quote credit */
-#credit {
-  border-bottom: dotted 4px #DC4731;
-  border-right: dotted 4px #DC4731;
+/* unvisited links */
+a:link {
   color: #B8390E;
-  font-family: Garamond, Georgia, serif;
-  font-size: 20px;
-  padding: 0 20px 20px 0;
-  text-align: right;
+  font-weight: 500;
+}
+
+/* hovering over links */
+a:hover {
+  color: #DC4731;
+}
+
+/* visited links */
+a:visited {
+  color: #67102A;
 }
