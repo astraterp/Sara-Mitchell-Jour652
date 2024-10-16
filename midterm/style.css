@@ -9,7 +9,29 @@
   width: 100%;
 }
 
+/* styles for main headline */
 h1 {
-  font-size: 30px;
+  font-family: Garamond, Georgia, serif;
+  font-size: 32px;
   margin-top: 20px;
+}
+
+/* styles for byline */
+#byline {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+/* styles for subheadings */
+.subhead {
+  font-family: Garamond, Georgia, serif;
+  font-size: 24px;
+}
+
+/* styles for body text */
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
 }
