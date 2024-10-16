@@ -1,0 +1,10 @@
+/* styles for main content */
+#content {
+  margin: 0 auto;
+  width: 900px; 
+} 
+
+/* styles for masthead */
+#masthead {
+  width: 100%;
+}
