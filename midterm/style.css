@@ -21,7 +21,7 @@ img {
 
 /* styles for inline chart */
 #chart {
-  margin: 20px 40px 50px;
+  margin: 1px 40px 25px;
 }
 
 /* styles for all captions */
@@ -46,7 +46,8 @@ img {
 
 /* styles for chart captions */
 #chart-caption {
-  background-color: transparent; 
+  background-color: transparent;
+  bottom: -15px; 
   color: #3B0918; 
 }
 
