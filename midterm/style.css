@@ -9,12 +9,31 @@
   width: 100%;
 }
 
+/* styles for all images */
+img {
+  width: 100%;
+}
+
+/* styles for image captions */
+.caption {
+  color: grey;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-style: italic;
+  margin-top: 2px;
+}
+
+/* styles for inline images */
+.inline {
+  margin: 30px 50px;
+}
+
 /* styles for main headline */
 h1 {
   color: #3B0918;
   font-family: Garamond, Georgia, serif;
-  font-size: 32px;
-  margin-top: 20px;
+  font-size: 34px;
+  margin-top: 30px;
 }
 
 /* styles for byline */
@@ -22,14 +41,15 @@ h1 {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-style: italic;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 /* styles for subheadings */
 .subhead {
   color: #3B0918;
   font-family: Garamond, Georgia, serif;
-  font-size: 24px;
+  font-size: 26px;
+  margin: 30px 0 20px;
 }
 
 /* styles for body text */
@@ -42,7 +62,7 @@ p {
 #related-items {
   border-top: dotted 4px #DC4731;
   background-color: #FFF3D9;
-  margin: 20px 0;
+  margin: 30px 0;
   padding: 5px 30px 10px;
 }
 
@@ -61,7 +81,7 @@ ul {
 
 /* styles for blockquote section */
 blockquote {
-  padding: 0 80px;
+  padding: 2px 80px;
 }
 
 /* styles for quote text */
