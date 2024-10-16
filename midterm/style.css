@@ -11,6 +11,7 @@
 
 /* styles for main headline */
 h1 {
+  color: #3B0918;
   font-family: Garamond, Georgia, serif;
   font-size: 32px;
   margin-top: 20px;
@@ -26,6 +27,7 @@ h1 {
 
 /* styles for subheadings */
 .subhead {
+  color: #3B0918;
   font-family: Garamond, Georgia, serif;
   font-size: 24px;
 }
@@ -38,14 +40,15 @@ p {
 
 /* styles for related items section */
 #related-items {
+  border-top: dotted 4px #DC4731;
   background-color: #FFF3D9;
   margin: 20px 0;
-  padding: 10px 30px;
+  padding: 5px 30px 10px;
 }
 
 /* styles for related items header */
 h3 {
-  color: #B8390E;
+  color: #3B0918;
   font-family: Garamond, Georgia, serif;
   font-size: 16px;
 }
@@ -54,4 +57,30 @@ h3 {
 ul {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
+}
+
+/* styles for blockquote section */
+blockquote {
+  padding: 0 80px;
+}
+
+/* styles for quote text */
+#quote {
+  border-left: dotted 4px #DC4731;
+  border-top: dotted 4px #DC4731;
+  color: #3B0918;
+  font-family: Garamond, Georgia, serif;
+  font-size: 20px;
+  padding: 20px 0 0 20px;
+}
+
+/* styles for quote credit */
+#credit {
+  border-bottom: dotted 4px #DC4731;
+  border-right: dotted 4px #DC4731;
+  color: #B8390E;
+  font-family: Garamond, Georgia, serif;
+  font-size: 20px;
+  padding: 0 20px 20px 0;
+  text-align: right;
 }
