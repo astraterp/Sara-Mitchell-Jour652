@@ -23,13 +23,12 @@ img {
 .caption {
   color: #3B0918;
   font-style: italic;
-  left: 10px;
   margin-top: 2px;
 }
 
 /* styles for chart captions */
 #chart-caption {
-  margin: -12px;
+  margin-top: -15px;
 }
 
 /* styles for main headline */
@@ -37,7 +36,7 @@ h1 {
   color: #3B0918;
   font-family: Garamond, Georgia, serif;
   font-size: 34px;
-  margin: 30px 0 10px;
+  margin: 25px 0 10px;
 }
 
 /* styles for byline */
@@ -69,8 +68,8 @@ blockquote {
 
 /* styles for quote text */
 #quote {
-  border-left: ridge 10px #DC4731;
-  border-top: ridge 10px #DC4731;
+  border-left: ridge 8px #DC4731;
+  border-top: ridge 8px #DC4731;
   color: #3B0918;
   font-family: Garamond, Georgia, serif;
   font-size: 20px;
@@ -80,8 +79,8 @@ blockquote {
 
 /* styles for quote credit */
 #credit {
-  border-bottom: groove 10px #DC4731;
-  border-right: groove 10px #DC4731;
+  border-bottom: groove 8px #DC4731;
+  border-right: groove 8px #DC4731;
   color: #B8390E;
   font-family: Garamond, Georgia, serif;
   font-size: 20px;
