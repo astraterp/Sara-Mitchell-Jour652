@@ -9,11 +9,6 @@ img {
   width: 100%;
 }
 
-/* styles for all images/chart divs */
-.image {
-  position: relative;
-}
-
 /* styles for inline images */
 .inline {
   margin: 30px 40px;
@@ -21,32 +16,20 @@ img {
 
 /* styles for inline chart */
 #chart {
-  margin: -15px 40px 25px;
+  margin: -15px 40px 45px;
 }
 
 /* styles for all captions */
 .caption {
-  background-color: #3B0918; 
-  bottom: 7px;
-  color: #FFF3D9;
+  color: #3B0918;
   font-style: italic;
   left: 10px;
   margin-top: 2px;
-  opacity: 0.9;
-  padding: 5px;
-  position: absolute;
-}
-
-/* styles for lead image captions */
-#caption-lead {
-  right: 25px; 
 }
 
 /* styles for chart captions */
 #chart-caption {
-  background-color: transparent;
-  bottom: -12px; 
-  color: #3B0918; 
+  margin: -12px;
 }
 
 /* styles for main headline */
