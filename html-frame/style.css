@@ -61,7 +61,7 @@ img {
 
 /* styles for pull quote */
 blockquote {
-  margin: 30px 95px 50px;
+  margin: 30px 120px 50px;
   text-align: center;
 }
 
@@ -76,6 +76,7 @@ blockquote {
 .quote {
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 1.5em;
+  line-height: 100%;
 }
 
 /* styles for quote credit */
@@ -83,6 +84,7 @@ blockquote {
   color: grey;
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 1em;
+  padding-top: 15px;
 }
 
 /* styles for three columns */
