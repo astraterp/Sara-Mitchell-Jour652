@@ -3,10 +3,97 @@
   font-family: Verdana, Tahoma, sans-serif;
 }
 
+/* styles for body container */
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 50px 0;
+}
+
+/* styles for headline */
+#headline {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 2.7em;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* styles for byline */
+#byline {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 1.2em;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+/* styles for story text */
+p {
+  font-family: Garamond, Georgia, serif;
+  font-size: 1em;
+  line-height: 160%;
+  padding-bottom: 3px;
+}
+
+/* styles for subheadings */
+.subheading {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+/* styles for image+caption container */
+.image-container {
+  padding: 15px 30px;
+}
+
+/* styles for images */
+img {
+  width: 100%;
+}
+
+/* styles for image captions */
+.caption {
+  color: grey;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 0.8em;
+}
+
+/* styles for pull quote */
+blockquote {
+  margin: 20px 95px 40px;
+  text-align: center;
+}
+
+/* styles for giant quote mark */
+.quote-mark {
+  color: grey;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 3.5em;
+}
+
+/* styles for quote text */
+.quote {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 1.5em;
+}
+
+/* styles for quote credit */
+.quote-credit {
+  color: grey;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 1em;
+}
+
+/* styles for three columns */
+.columns {
+  padding-top: 0px;
+  text-align: center;
+}
+
 /* styles for footer container */
 .footer {
   background-color: #007bff;
-  margin-top: 30px;
 }
 
 /* styles for footer text; height will expand with text */
