@@ -61,13 +61,13 @@ img {
 
 /* styles for pull quote */
 blockquote {
-  margin: 30px 120px 50px;
+  margin: 20px 120px 40px;
   text-align: center;
 }
 
 /* styles for giant quote mark */
 .quote-mark {
-  color: grey;
+  color: #007bff;
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 3.5em;
 }
@@ -89,7 +89,7 @@ blockquote {
 
 /* styles for three columns */
 .columns {
-  padding-top: 0px;
+  padding-top: 0;
   text-align: center;
 }
 
@@ -99,11 +99,11 @@ blockquote {
 }
 
 /* styles for footer text; height will expand with text */
-.footer-text {
+.footer-text p {
   color: white;
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 1em;
-  margin: 20px;
+  margin: 15px;
   text-align: center;
 }
 
