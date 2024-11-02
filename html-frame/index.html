@@ -6,11 +6,11 @@
 
     <meta charset="utf-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>HTML Frame</title>
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- my external stylesheet -->
@@ -20,7 +20,8 @@
 
   <body>
   
-    <nav class="navbar navbar-dark bg-primary"> <!--Bootstrap basic navbar start-->
+    <!-- Bootstrap basic navbar -->
+    <nav class="navbar navbar-dark bg-primary"> <!-- opening navbar -->
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,10 +56,9 @@
           </form>
         </div>
       </div>
-    </nav> <!--Bootstrap basic navbar end-->
+    </nav> <!-- closing navbar -->
       
-    
-    <div class="container"> <!--Bootstrap grid start-->
+    <div class="container"> <!-- opening Bootstrap body container -->
       
       <!-- headline -->
       <h1 id="headline">Headline Goes Here</h1>
@@ -69,13 +69,13 @@
       <!-- body text -->
       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
       
-      <!-- image -->
+      <!-- inline image -->
       <div class="image-container"> <!-- opening image div -->
            
         <!-- image -->
         <img src="kittens-entangled-yarn.jpg" alt="Black-and-white photograph of four kittens in clothes, tangled up in a ball of twine.">
       
-        <!-- image caption -->
+        <!-- image caption and credit -->
         <p class="caption">Caption goes here. —Credit goes here</p>
       
       </div> <!-- closing image div -->
@@ -96,14 +96,16 @@
         <!-- quote text -->
         <span class="quote">A pull quote contained in a blockquote element, with a giant quotation mark before it.</span>
         
+        <!-- quote credit -->
         <div class="quote-credit">— Source goes here</div>
         
       </blockquote>
       
       <p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar.</p>
       
-    </div> <!--Bootstrap grid end-->
+    </div> <!-- closing Bootstrap body container -->
     
+    <!-- three columms -->
     <div class="container columns"> <!-- opening Bootstrap three-column container -->
     
       <div class="row"> <!-- opening row -->
@@ -112,24 +114,25 @@
          
            <p class="column-text">One of three columns</p>
          
-         </div> <!-- closing column -->
+         </div> <!-- closing column 1 -->
     
          <div class="col-md-4"> <!-- opening column 2 -->
          
            <p class="column-text">One of three columns</p>
          
-         </div> <!-- closing column -->
+         </div> <!-- closing column 2 -->
     
          <div class="col-md-4"> <!-- opening column 3 -->
          
            <p class="column-text">One of three columns</p>
          
-         </div> <!-- closing column -->
+         </div> <!-- closing column 3 -->
     
       </div> <!-- closing row -->
     
-    </div> <!-- closing Bootstrap footer container -->
+    </div> <!-- closing Bootstrap three-column container -->
 
+    <!-- footer -->
     <div class="container-fluid footer"> <!-- opening Bootstrap footer container -->
     
       <div class="row"> <!-- opening row -->
