@@ -3,13 +3,6 @@
   font-family: Verdana, Tahoma, sans-serif;
 }
 
-/* styles for body container */
-.container {
-  margin: 0 auto;
-  max-width: 1000px;
-  padding: 30px 0;
-}
-
 /* styles for headline */
 #headline {
   font-family: Verdana, Tahoma, sans-serif;
@@ -62,21 +55,21 @@ img {
 
 /* styles for pull quote */
 blockquote {
+  line-height: 200%;
   margin: 20px 120px 40px;
   text-align: center;
 }
 
 /* styles for giant quote mark */
-.quote-mark {
+.bi-quote {
   color: #007bff;
-  font-size: 3.5em;
+  font-size: 3.2em;
 }
 
 /* styles for quote text */
 .quote {
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 1.5em;
-  line-height: 100%;
 }
 
 /* styles for quote credit */
@@ -84,7 +77,7 @@ blockquote {
   color: grey;
   font-family: Verdana, Tahoma, sans-serif;
   font-size: 1em;
-  padding-top: 15px;
+  padding-top: 5px;
 }
 
 /* styles for three columns */
