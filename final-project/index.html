@@ -18,6 +18,11 @@
     
     <!-- my external stylesheet -->
     <link href="style.css" rel="stylesheet" type="text/css">
+    
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   </head>
 
@@ -63,6 +68,17 @@
       
     <div class="container"> <!-- opening Bootstrap body container -->
       
+      <!-- inline image -->
+      <div class="lead-image-container"> <!-- opening image div -->
+           
+        <!-- image -->
+        <img src="images/nasa-perseid-meteor-shower.jpg" alt="Long exposure of a meteor streaking across a night sky above Spruce Knob, West Virginia.">
+      
+        <!-- image caption and credit -->
+        <p class="caption">A meteor streaks across the sky above Spruce Knob, West Virginia, during the Perseid meteor shower in August 2021. Credit: NASA/Bill Ingalls</p>
+      
+      </div> <!-- closing image div -->
+      
       <!-- headline -->
       <h1 id="headline">Too much light threatens environment and health, studies show</h1>
       
@@ -76,7 +92,7 @@
       
       <p>Astronomers at the National Science Foundation’s NOIRLab (which stands for National Optical-Infrared Astronomy Research Laboratory) estimate that light pollution levels are increasing by 10% every year. Children born today in a city where 250 stars can be seen at night will only be able to see 100 by the time they turn 18.</p>
       
-      <!--  -  -->
+      <!-- Flourish chart of stars visible during childhood -->
       <div class="flourish-embed flourish-chart" data-src="visualisation/20448005"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20448005/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
       
       <p>Connie Walker, a scientist at NOIRLab, told Capital News Service that increasing light pollution represents a lost cultural heritage.</p>
@@ -85,8 +101,11 @@
       
       <p>What some may not realize when viewing paintings like “The Starry Night” or “The Night Cafe” is that during Van Gogh’s time the Milky Way really could be seen from the city streets at night. This is how it was for most of human history; change came with the explosion of electric lighting in the 20th century.</p>
       
-      <!--  -  -->
+      <!-- Flourish slider of night sky 2012-2023 -->
       <div class="flourish-embed flourish-photo-slider" data-src="visualisation/20446989"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20446989/thumbnail" width="100%" alt="photo-slider visualization" /></noscript></div>
+      
+      <!-- subheading -->
+      <p class="subheading">Light Pollution Impacts Health, Nature</p>
       
       <p>However, light pollution is a serious threat beyond cultural heritage. It disrupts our sleep cycles and circadian rhythms, which can put individuals at greater risk of developing a number of cancers, according to researchers at Harvard University.</p>
       
@@ -94,6 +113,37 @@
       
       <p>Millions of Americans are missing out on much-needed sleep. The Centers for Disease Control and Prevention (CDC) estimate that at least one in three Americans does not get enough sleep.</p>
       
+    </div> <!-- closing initial Bootstrap body container -->
+    
+    <!-- three columms -->
+    <div class="container columns"> <!-- opening Bootstrap three-column container -->
+    
+      <div class="row"> <!-- opening row -->
+    
+         <div class="col-md-4"> <!-- opening column 1 -->
+         
+           <p class="column-text">One of three columns</p>
+         
+         </div> <!-- closing column 1 -->
+    
+         <div class="col-md-4"> <!-- opening column 2 -->
+         
+           <p class="column-text">One of three columns</p>
+         
+         </div> <!-- closing column 2 -->
+    
+         <div class="col-md-4"> <!-- opening column 3 -->
+         
+           <p class="column-text">One of three columns</p>
+         
+         </div> <!-- closing column 3 -->
+    
+      </div> <!-- closing row -->
+    
+    </div> <!-- closing Bootstrap three-column container -->
+    
+    <div class="container"> <!-- opening new Bootstrap body container -->
+    
       <p>For animals, the consequences of light pollution can be even more dire.</p>
       
       <p>Many animals have evolved to use the moon and stars to guide their way in the night. Sea turtle hatchlings use the moonlight to find their way to the ocean, but in light-polluted areas, the newborns become disoriented and may actually crawl inland. The Florida Fish and Wildlife Conservation Commission estimates that light pollution results in thousands of sea turtle deaths every year.</p>
@@ -106,13 +156,40 @@
       
       <p>Other species that rely on the moon and stars for guidance, like moths, can spend the entire night in disoriented wandering. Some species mistake light bouncing off pavement for the surface of a body of water and mistakenly lay their eggs in the street.</p>
       
+      <!-- subheading -->
+      <p class="subheading">Measuring and Reducing Light Pollution</p>
+      
       <p>One of the challenges to assessing light pollution’s growth is that it doesn’t show up well in satellite data.</p>
       
       <p>It is difficult to do longitudinal studies because of the dramatic changes in satellite imaging quality over the years. Even the modern sensors are largely unable to pick up the blue light that is the most biologically disruptive component of light pollution.</p>
       
-      <!-- final project data viz #1 - map of Globe at Night observations -->
-      <div class="flourish-embed flourish-webgl" data-src="visualisation/20423530"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20423530/thumbnail" width="100%" alt="webgl visualization" /></noscript></div>
-      
+    </div> <!-- closing initial Bootstrap body container -->
+    
+    <!-- three columms -->
+    <div class="container columns"> <!-- opening Bootstrap two-column container -->
+    
+      <div class="row"> <!-- opening row -->
+    
+         <div class="col-md-8"> <!-- opening column 1 -->
+         
+          <!-- Flourish map of Globe at Night observations -->
+          <div class="flourish-embed flourish-webgl" data-src="visualisation/20423530"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20423530/thumbnail" width="100%" alt="webgl visualization" /></noscript></div>
+               
+         </div> <!-- closing column 1 -->
+    
+         <div class="col-md-4"> <!-- opening column 2 -->
+         
+           <p class="column-text">One of three columns</p>
+         
+         </div> <!-- closing column 2 -->
+    
+      </div> <!-- closing row -->
+    
+    </div> <!-- closing Bootstrap three-column container -->
+    
+    <div class="container"> <!-- opening new Bootstrap body container -->
+    
+
       <p>This is why NOIRLab created the Globe at Night Program, which collects light data from ordinary people around the world. Participants rate their ability to see stars in the sky from wherever they find themselves.</p>
       
       <p>Over 277,000 measurements have been submitted since the program began collecting data in 2006. The submissions have been compiled into interactive maps and datasets available to the public that give a better snapshot of light pollution than standard satellite imagery.</p>
@@ -143,69 +220,25 @@
       
       <p>“That’s a common reaction. And there’s very little truth to it,” Dougherty said. In fact, studies have shown that brighter streets have little impact on crime. One study out of Chicago actually found that increasing the brightness of alleyways corresponded with a significant increase in crime.</p>
       
-      <!-- inline image -->
-      <div class="image-container"> <!-- opening image div -->
-           
-        <!-- image -->
-        <img src="kittens-entangled-yarn.jpg" alt="Black-and-white photograph of four kittens in clothes, tangled up in a ball of twine.">
+      <!-- horizontal divider -->
+      <hr id="divider">
       
-        <!-- image caption and credit -->
-        <p class="caption">Caption goes here. —Credit goes here</p>
+      <div id="more-reads"> <!-- opening more reads div -->
       
-      </div> <!-- closing image div -->
+      <!-- more reads title -->
+      <h3>You Might Also Enjoy</h3>
       
-      <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+      <!-- list of links -->
+      <ul>
+        <li><a href="https://cnsmaryland.org/2024/10/25/no-grass-no-crabs-md-gunpowder-river-community-grapples-with-mud-pollution-amid-election/">“No grass, no crabs”: Maryland community grapples with Gunpowder River mud pollution</a></li>
+        <li><a href="https://cnsmaryland.org/2021/04/16/filling-your-garden-with-native-maryland-plants-could-save-you-time-money-and-the-environment/">Filling your garden with native Maryland plants could save you time, money and the environment</a></li>
+        <li><a href="https://cnsmaryland.org/2017/12/13/shell-recycling-its-about-the-bay/">Shell recycling: It’s about the bay</a></li>
+      </ul>
       
-      <!-- subheading -->
-      <p class="subheading">Subheading Goes Here</p>
-      
-      <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-      
-      <!-- pull quote -->
-      <blockquote>
-      
-        <!-- giant opening quote mark
-        <span class="quote-mark">&#10077;</span> -->
-        
-        <!-- quote text -->
-        <i class="bi bi-quote"></i><span class="quote">A pull quote contained in a blockquote element, with a giant quotation mark before it.</span>
-        
-        <!-- quote credit -->
-        <div class="quote-credit">— Source goes here</div>
-        
-      </blockquote>
-      
-      <p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar.</p>
-      
+    </div> <!-- closing more-reads div -->
+    
     </div> <!-- closing Bootstrap body container -->
     
-    <!-- three columms -->
-    <div class="container columns"> <!-- opening Bootstrap three-column container -->
-    
-      <div class="row"> <!-- opening row -->
-    
-         <div class="col-md-4"> <!-- opening column 1 -->
-         
-           <p class="column-text">One of three columns</p>
-         
-         </div> <!-- closing column 1 -->
-    
-         <div class="col-md-4"> <!-- opening column 2 -->
-         
-           <p class="column-text">One of three columns</p>
-         
-         </div> <!-- closing column 2 -->
-    
-         <div class="col-md-4"> <!-- opening column 3 -->
-         
-           <p class="column-text">One of three columns</p>
-         
-         </div> <!-- closing column 3 -->
-    
-      </div> <!-- closing row -->
-    
-    </div> <!-- closing Bootstrap three-column container -->
-
     <!-- footer -->
     <div class="container-fluid footer"> <!-- opening Bootstrap footer container -->
     
