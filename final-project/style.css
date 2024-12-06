@@ -99,16 +99,36 @@ blockquote {
   text-align: center;
 }
 
+/* styles for sidebar two-column container */
+#sidebar-container {
+  margin-bottom: 30px;
+}
+
+/* styles for sidebar */
+#globe-sidebar {
+  background-color: #cee5ff;
+  padding: 20px;
+  text-align: left;
+}
+
+/* styles for sidebar header */
+.sidebar-header {
+  color: #04345C;
+  font-family: "Poppins", Verdana, sans-serif;
+  font-size: 1.5em;
+  padding-bottom: 15px;
+}
+
 /* styles for horizontal divider */
 #divider {
-  border-top: 4px solid #1E77BD;
+  border-top: 4px solid #007bff;
   margin-top: 30px;
   opacity: 1;
 }
 
 /* styles for more reads section */
 #more-reads {
-  background-color: #BAD3E4;
+  background-color: #cee5ff;
   font-family: Garamond, Georgia, serif;
   font-size: 1.1em;
   margin: 40px 0;
@@ -116,7 +136,7 @@ blockquote {
 }
 
 /* styles for more reads title */
-h3 {
+.reads-header {
   color: #04345C;
   font-family: "Poppins", Verdana, sans-serif;
   font-size: 1.4em;
