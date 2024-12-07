@@ -31,7 +31,7 @@
     <!-- Bootstrap basic navbar -->
     <nav class="navbar navbar-dark bg-primary fixed-top"> <!-- opening navbar -->
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Capital News Service</a>
+        <a class="navbar-brand">Capital News Service</a>
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -39,41 +39,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#top">Top of page</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+              <a class="nav-link" href="#subhead1">Light Pollution Impacts Health, Nature</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="#subhead2">Measuring and Reducing Light Pollution</a>
             </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav> <!-- closing navbar -->
       
     <div class="container-fluid"> <!-- opening Bootstrap body container -->
-      
+            
       <!-- lead image container -->
       <div class="lead-image-container"> <!-- opening image div -->
            
         <!-- lead image -->
-        <img src="images/nasa-perseid-meteor-shower.jpg" alt="Long exposure of a meteor streaking across a night sky above Spruce Knob, West Virginia.">
+        <img id="top" src="images/nasa-perseid-meteor-shower.jpg" alt="Long exposure of a meteor streaking across a night sky above Spruce Knob, West Virginia.">
       
         <!-- lead image caption and credit -->
         <p class="caption">A meteor streaks across the sky above Spruce Knob, West Virginia, during the Perseid meteor shower in August 2021. Photo by NASA/Bill Ingalls</p>
@@ -115,7 +99,7 @@
       <div class="flourish-embed flourish-photo-slider" data-src="visualisation/20446989"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20446989/thumbnail" width="100%" alt="photo-slider visualization" /></noscript></div>
       
       <!-- subheading -->
-      <p class="subheading">Light Pollution Impacts Health, Nature</p>
+      <p class="subheading" id="subhead1">Light Pollution Impacts Health, Nature</p>
       
       <p>However, light pollution is a serious threat beyond cultural heritage. It disrupts our sleep cycles and circadian rhythms, which can put individuals at greater risk of developing a number of cancers, <a href="https://sitn.hms.harvard.edu/flash/2020/i-cant-sleep-can-you-turn-off-the-lights/" target="_blank">according to researchers at Harvard University</a>.</p>
       
@@ -195,7 +179,7 @@ Patrick Clement, <a href="https://creativecommons.org/licenses/by/2.0/" target="
       <p>Other species that rely on the moon and stars for guidance, like moths, can spend the entire night in disoriented wandering. Some species mistake light bouncing off pavement for the surface of a body of water and mistakenly lay their eggs in the street.</p>
       
       <!-- subheading -->
-      <p class="subheading">Measuring and Reducing Light Pollution</p>
+      <p class="subheading" id="subhead2">Measuring and Reducing Light Pollution</p>
       
       <p>One of the challenges to assessing light pollution’s growth is that it doesn’t show up well in satellite data.</p>
       
