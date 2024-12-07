@@ -14,7 +14,7 @@
 .headbyline {
   left: 15%;
   position: absolute;
-  top: 40%;
+  top: 42%;
   text-align: center;
   width: 70%;
 }
@@ -205,7 +205,7 @@ blockquote {
 
 @media screen and (max-width: 991px) {
   .headbyline {
-    top: 30%;
+    top: 35%;
   }
   
   #headline {
