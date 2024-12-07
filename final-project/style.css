@@ -217,6 +217,14 @@ blockquote {
     line-height: 150%;
     margin: 20px 50px 30px;
   }
+  
+  #globe-sidebar p {
+    font-size: 0.9em;
+  }
+  
+  .sidebar-header {
+    font-size: 1.2em;
+}  
 }
 
 @media screen and (max-width: 768px) {
