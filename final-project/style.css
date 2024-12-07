@@ -103,7 +103,7 @@ blockquote {
 /* styles for sidebar two-column container */
 #sidebar-container {
   margin-bottom: 30px;
-  padding: 20px 0;
+  padding: 20px 30px 20px 10px;
 }
 
 /* styles for sidebar */
@@ -197,6 +197,10 @@ blockquote {
   blockquote {
     margin: 20px 100px 30px;
   }
+  
+  #globe-sidebar p {
+    font-size: 0.9em;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -218,13 +222,10 @@ blockquote {
     margin: 20px 50px 30px;
   }
   
-  #globe-sidebar p {
-    font-size: 0.9em;
+  #sidebar-container {
+    padding: 30px;
   }
   
-  .sidebar-header {
-    font-size: 1.2em;
-}  
 }
 
 @media screen and (max-width: 768px) {
@@ -258,7 +259,6 @@ blockquote {
   }
   
   blockquote {
-    line-height: 150%;
     margin: 20px 30px 30px;
   }
 
