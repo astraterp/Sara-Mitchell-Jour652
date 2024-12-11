@@ -222,7 +222,12 @@ blockquote {
   #globe-sidebar {
     margin-top: 20px;
   }
-
+  
+  .col-lg-8 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
   #more-reads {
     font-size: 1em;
   }
