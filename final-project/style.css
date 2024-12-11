@@ -14,8 +14,8 @@
 .headbyline {
   left: 15%;
   position: absolute;
-  top: 42%;
   text-align: center;
+  top: 42%;
   width: 70%;
 }
 
@@ -49,7 +49,7 @@ p {
   margin: 30px 0 20px;
 }
 
-/* styles for image+caption container */
+/* styles for image+caption containers */
 .image-container {
   padding: 20px 0;
 }
@@ -61,10 +61,10 @@ img {
 
 /* styles for image captions */
 .caption {
-  text-align: left;
   color: grey;
   font-family: "Poppins", Verdana, sans-serif;
   font-size: 0.8em;
+  text-align: left;
 }
 
 /* styles for pull quote */
@@ -99,26 +99,26 @@ blockquote {
   margin: 30px 0;
 }
 
-/* styles for flourish globe column */
-.col-lg-8 {
+/* styles for flourish globe column on left */
+#flourish-globe {
   padding-left: 0;
 }
 
-/* styles for sidebar */
+/* styles for sidebar column on right */
 #globe-sidebar {
   background-color: #cee5ff;
   padding: 15px 20px;
   text-align: left;
 }
 
-/* styles for sidebar header */
+/* styles for sidebar header text */
 .sidebar-header {
   color: #04345C;
   font-family: "Poppins", Verdana, sans-serif;
   font-size: 1.5em;
 }
 
-/* styles for sidebar byline */
+/* styles for sidebar byline text */
 .sidebar-byline {
   font-style: italic;
 }
@@ -170,130 +170,154 @@ blockquote {
   padding: 20px 0;
 }
 
-/* styles for embedded video */
+/* styles for embedded YouTube video, code provided by Hyon-Young Kim */
 .embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
   height: 0;
-  overflow: hidden;
   max-width: 100%;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
 }
 
-/* styles for embedded video iframe */
+/* styles for embedded YouTube iframe, code provided by Hyon-Young Kim */
 .embed-container iframe, .embed-container object, .embed-container embed {
+  height: 100%;
+  left: 0;
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;height: 100%;
+  width: 100%;
 }
 
+/* styles for screens smaller than 1200px */
 @media screen and (max-width: 1199px) {
+  
+  /* styles for headline+byline container - move up */
   .headbyline {
     top: 40%;
   }
   
+  /* styles for pull quote - make wider */
   blockquote {
     margin: 20px 100px 30px;
   }
   
+  /* styles for text in sidebar column on right - make smaller */
   #globe-sidebar p {
     font-size: 0.9em;
   }
 }
 
+/* styles for screens smaller than 992px */
 @media screen and (max-width: 991px) {
+  
+  /* styles for headline+byline container - move up */
   .headbyline {
     top: 35%;
   }
   
+  /* styles for headline - make font smaller+lighter */
   #headline {
     font-size: 2.3em;
     font-weight: 600;
   }
   
+  /* styles for byline - make font smaller */
   #byline {
     font-size: 1.1em;
   }
   
+  /* styles for row with animal pics - reduce top/bottom padding in inline view */
   #animal-pics {
     padding: 10px 0;
   }
   
+/* styles for image+caption containers - reduce top/bottom padding */
   .image-container {
     padding: 5px 0;
   }
   
+    /* styles for pull quote - make wider */
   blockquote {
     margin: 20px 50px 30px;
   }
   
+  /* styles for sidebar column on right - add top/bottom margins in inline view */
   #globe-sidebar {
-    margin-top: 20px;
     margin-bottom: 10px;
+    margin-top: 20px;
   }
   
-  .col-lg-8 {
-    padding-left: 0;
+  /* styles for flourish globe column on left - reduce right padding in inline view */
+  #flourish-globe {
     padding-right: 0;
   }
   
+  /* styles for more reads section - make font smaller */
   #more-reads {
     font-size: 1em;
   }
   
+  /* styles for more reads title - make font smaller */
   .reads-header {
     font-size: 1.2em;
   }
   
 }
 
+/* styles for screens smaller than 768px */
 @media screen and (max-width: 767px) {
   
-   .opening-image {
+  /* styles for lead image - adjust width to match container below */
+  .opening-image {
      max-width: 540px;
-   }
-        
+  }
+  
+  /* styles for lead image+caption container - change to black text */
   .lead-image-container {
     color: black;
   }
   
+  /* styles for headline+byline container - move below image */
   .headbyline {
-    position: relative;
     left: 0;
+    position: relative;
     text-align: left;
     width: 100%;
   }
   
+  /* styles for headline - make font smaller */
   #headline {
     font-size: 2em;
   }
   
+  /* styles for byline - make font smaller */
   #byline {
     font-size: 1.1em;
     margin-top: 10px;
   }
   
+  /* styles for subheadings - make font smaller+lighter */
   .subheading {
     font-size: 1.5em;
     font-weight: 600;
   }
   
-  .image-container {
-    padding: 5px 0;
-  }
-  
+    /* styles for pull quote - make wider */
   blockquote {
     margin: 20px 30px 30px;
   }
-
+  
+  /* styles for giant quote mark - make smaller */
   .bi-quote {
     font-size: 2.6em;
   }
   
+  /* styles for quote text - make font smaller */
   .quote {
     font-size: 1.3em;
   }
   
+  /* styles for quote credit - make font smaller */
   .quote-credit {
     font-size: 0.9em;
   }
