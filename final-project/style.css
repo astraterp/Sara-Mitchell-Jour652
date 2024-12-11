@@ -99,6 +99,11 @@ blockquote {
   margin: 30px 0;
 }
 
+/* styles for flourish globe column */
+.col-lg-8 {
+  padding-left: 0;
+}
+
 /* styles for sidebar */
 #globe-sidebar {
   background-color: #cee5ff;
@@ -214,10 +219,10 @@ blockquote {
     margin: 20px 50px 30px;
   }
   
-  #sidebar-container {
-    padding: 30px;
+  #globe-sidebar {
+    margin-top: 20px;
   }
-  
+
   #more-reads {
     font-size: 1em;
   }
