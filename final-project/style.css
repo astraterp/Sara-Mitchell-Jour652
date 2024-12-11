@@ -94,9 +94,9 @@ blockquote {
   padding-top: 5px;
 }
 
-/* styles for sidebar two-column container */
-#sidebar-container {
-  margin-bottom: 30px;
+/* styles for sidebar row */
+#sidebar-row {
+  margin: 30px 0;
 }
 
 /* styles for sidebar */
