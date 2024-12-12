@@ -252,6 +252,11 @@ blockquote {
     padding-right: 0;
   }
   
+  /* styles for sidebar header text */
+  .sidebar-header {
+    font-size: 1.3em;
+} 
+  
   /* styles for more reads section - make font smaller */
   #more-reads {
     font-size: 1em;
@@ -259,7 +264,7 @@ blockquote {
   
   /* styles for more reads title - make font smaller */
   .reads-header {
-    font-size: 1.2em;
+    font-size: 1.3em;
   }
   
 }
