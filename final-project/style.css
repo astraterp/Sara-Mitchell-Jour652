@@ -231,12 +231,12 @@ blockquote {
     padding: 10px 0;
   }
   
-/* styles for image+caption containers - reduce top/bottom padding */
+  /* styles for image+caption containers - reduce top/bottom padding */
   .image-container {
     padding: 5px 0;
   }
   
-    /* styles for pull quote - make wider */
+  /* styles for pull quote - make wider */
   blockquote {
     margin: 20px 50px 30px;
   }
@@ -255,7 +255,7 @@ blockquote {
   /* styles for sidebar header text */
   .sidebar-header {
     font-size: 1.3em;
-} 
+  } 
   
   /* styles for more reads section - make font smaller */
   #more-reads {
@@ -266,7 +266,6 @@ blockquote {
   .reads-header {
     font-size: 1.3em;
   }
-  
 }
 
 /* styles for screens smaller than 768px */
@@ -307,7 +306,7 @@ blockquote {
     font-weight: 600;
   }
   
-    /* styles for pull quote - make wider */
+  /* styles for pull quote - make wider */
   blockquote {
     margin: 20px 30px 30px;
   }
